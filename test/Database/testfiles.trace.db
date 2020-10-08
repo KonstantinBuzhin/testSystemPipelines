@@ -1,0 +1,3 @@
+2020-10-08 16:55:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+SELECT * FROM testfiles WHERE idfile=? [42102-199]

@@ -1,0 +1,97 @@
+2020-10-08 14:58:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, null) [42102-199]
+2020-10-08 14:58:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, null) [42102-199]
+2020-10-08 15:20:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:20:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:20:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, [B@2a32de6c) [42102-199]
+2020-10-08 15:25:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:39:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:48:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:54:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, java.io.ByteArrayInputStream@7f1302d6) [42102-199]
+2020-10-08 15:56:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 15:56:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, java.io.ByteArrayInputStream@7f1302d6) [42102-199]
+2020-10-08 16:05:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles (idfile,file) VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 16:05:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, javax.sql.rowset.serial.SerialBlob@44e311df) [42102-199]
+2020-10-08 16:09:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file) VALUES (?, ?) [42102-199]
+2020-10-08 16:10:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file) VALUES (?, ?) [42102-199]
+2020-10-08 16:10:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (?, ?) [42102-199]
+2020-10-08 16:11:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file) VALUE (?, ?) [42102-199]
+2020-10-08 16:11:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file) VALUE (?, ?) [42102-199]
+2020-10-08 16:20:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles VALUES (1, FILE_READ(setter.csv)) [42102-199]
+2020-10-08 16:21:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file VALUES (1, FILE_READ(setter.csv)) [42102-199]
+2020-10-08 16:22:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file VALUES (1, FILE_READ(C:\Users\Konstantin\eclipse-workspace\setter.csv)) [42102-199]
+2020-10-08 16:22:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile,file) VALUES (1, FILE_READ(C:\Users\Konstantin\eclipse-workspace\setter.csv)) [42102-199]
+2020-10-08 16:23:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO testfiles(idfile,file) VALUES (1, {$blobfile='C:\Users\Konstantin\eclipse-workspace\setter.csv')[*]" [42000-199]
+2020-10-08 16:24:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO testfiles(idfile,file) VALUES (1, {$blobfile='C:\Users\Konstantin\eclipse-workspace\setter.csv'))[*]" [42000-199]
+2020-10-08 16:30:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile, file) VALUES('1', FILE_READ('C:\Users\Konstantin\eclipse-workspace\PipelineSystem\setter.csv')); [42102-199]
+2020-10-08 16:41:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile, file) VALUES(?) [42102-199]
+2020-10-08 16:42:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile, file) VALUES(?) [42102-199]
+2020-10-08 16:42:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile, file) VALUES(?) [42102-199]
+2020-10-08 16:43:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+INSERT INTO testfiles(idfile, file) VALUES(?) [42102-199]
+2020-10-08 16:53:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+SELECT * FROM testfiles WHERE idfile=? [42102-199]
+2020-10-08 16:56:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+SELECT * FROM testfiles WHERE idfile=? [42102-199]
+2020-10-08 16:56:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TESTFILES" not found; SQL statement:
+SELECT * FROM testfiles [42102-199]
